@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serig;
+  background: var(--gray-900);
+  color: var(--text-default);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  text-justify: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.formRow {
+  display: flex;
+  align-items: center;
+  text-justify: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
