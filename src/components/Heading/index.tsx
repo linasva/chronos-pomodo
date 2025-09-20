@@ -1,4 +1,4 @@
-import styles from './styles.module.css'; // Quando vc usa o module vc pode criar uma variavel para puxar o css scope
+import styles from './styles.module.css';
 type HeadingProps = {
   children: React.ReactNode;
 };
